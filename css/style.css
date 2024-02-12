@@ -264,6 +264,26 @@ button {
     height: auto;
 }
 
+@media (min-width: 768px){
+    .header_section{
+        padding: 0 64px;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    .banner_section{
+        width: 50px;
+        height: 50px;
+        background-size: 30%;
+        padding: 100px 0px;
+    }
+    .coffee_text{
+        width: 10%;
+        height: auto;
+    }
+}
+
 /* header section end */
 
 /* banner section start */
@@ -579,8 +599,8 @@ a:hover {
 }
 
 .house_icon img {
-    width: 45px;
-    min-height: 50px;
+    width: 100px;
+    min-height: 100px;
 }
 
 .box_main .house_icon .image_2 {
@@ -780,6 +800,15 @@ a:hover {
 /* client section end */
 
 /* contact section start */
+
+.Olshop{
+    width: 100%;
+    height: auto;
+}
+
+.Olshop p {
+    font-size: 35px;
+}
 
 .contact_section {
     width: 100%;
