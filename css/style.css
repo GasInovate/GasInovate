@@ -218,6 +218,8 @@ button {
 /* header section start */
 
 .header_section {
+    position: fixed;
+    z-index: 1030;
     width: 100%;
     float: left;
     background: linear-gradient(to right, #000, #ff3131);
@@ -722,36 +724,37 @@ a:hover {
     padding-bottom: 100px;
 }
 
-.testimonial_section_2 {
-    width: 100%;
-    float: left;
-    padding: 0px 40px 30px 40px;
-    position: relative;
-}
-
-.testimonial_section_2::after {
-    content: '';
-    position: absolute;
+.testimonial {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-content {
+    flex: 1;
+  }
+  
+  .testimonial-content p {
+    margin: 0;
+  }
+  
+  .testimonial-content cite {
+    font-style: italic;
+  }
+  
+  .testimonial-image {
+    margin-left: 20px;
+  }
+  
+  .testimonial-image img {
     width: 100px;
-    height: 150px;
-    border-top: 3px solid #252525;
-    border-left: 3px solid #252525;
-    top: 12px;
-    left: 0px;
-    right: initial;
-}
-
-.testimonial_section_2::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    border-bottom: 3px solid #252525;
-    border-right: 3px solid #252525;
-    top: 12px;
-    left: initial;
-    right: 0px;
-}
+    border-radius: 50%;
+  }
+  
 
 .client_name_text {
     width: 100%;
@@ -804,10 +807,7 @@ a:hover {
 .Olshop{
     width: 100%;
     height: auto;
-}
-
-.Olshop p {
-    font-size: 35px;
+    background-color: linear-gradient(to right bottom, #000, #ff3131);;
 }
 
 .contact_section {
@@ -906,6 +906,23 @@ a:hover {
 .padding_0 {
     padding: 0px;
 }
+
+.Olshop .tokopedia img {
+    width: 150px;
+    height: auto;
+}
+
+.Olshop a {
+    font-size: 30px;
+}
+
+.Olshop .shopee img {
+    width: 152px;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 /* contact section end */
 
@@ -1029,3 +1046,4 @@ a:hover {
 .margin_top90 {
     margin-top: 90px;
 }
+
