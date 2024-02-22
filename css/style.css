@@ -976,8 +976,8 @@ a:hover {
 
 @media (max-width: 768px){
     .map-responsive iframe{
-        width: 400px;
-        height: 300px;
+        width: 800px;
+        height: 450px;
         
     }
 }
